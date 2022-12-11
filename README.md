@@ -1,22 +1,22 @@
 # MegaCars
 # Summary Statistics on Suspension Coils
-The variance of MechaCar suspension coils must not exceed 100 pounds per square inch because of it's design specifications.
-We are analising here if data meet this specification for all lots in total and each lot individually.
-You can see the results of the analysis at the tables below.
+The variance of MechaCar suspension coils must be 100 pounds per square inch because of its design specifications.
+We are analysing here if data meet this specification for all lots in total and each lot individually.
+You can see the results of the analysis in the tables below.
 The manufacturing lots meet the specifications because the variance on PSI is 76.
 <img width="444" alt="each lot_summary" src="https://user-images.githubusercontent.com/111788394/206922165-a06aa760-73e5-4270-b1f0-07e5b66d1deb.png">
 
 <img width="338" alt="overall_summary" src="https://user-images.githubusercontent.com/111788394/206922170-eb1d11df-25b2-437d-90f1-adf1c3a5c6d2.png">
-However when we look to all lots, althought  Lot 1 and Lot 2 are meeting the specifications, but Lot 3 doesn't meet the design specification because PSI is 200.
+However, when we look at all lots, although Lot 1 and 2 meet the specifications, Lot 3 still needs to meet the design specification because PSI is 200.
 
 ## Linear Regression to Predict MPG
 <img width="500" alt="Screen Shot 2022-12-11 at 3 35 18 PM" src="https://user-images.githubusercontent.com/111788394/206927412-4b2c597a-9b5b-4eb9-bc8c-a2846a07a823.png">
 
 
 ## T-Tests on Suspension Coils
-I did t-tests to find out if all lots together and each lots individually 
+I did t-tests to find out if all lots together and each lot individually meet the requirements.
 ### Null Hipotesis
-At the images below we see that p values are grater than 0,05 at each lots those are null because all p values are bigger than 0,05, so we cant beleive the outcome.
+The images below show that p values are greater than 0,05 at each lot. Those are null because all p values are bigger than 0,05, so we can't believe the outcome.
 
 - _t_(149) = the _t_ statistic, _p_ = _p_ value = 0.06028
 <img width="400" alt="Screen Shot 2022-12-11 at 2 01 59 PM" src="https://user-images.githubusercontent.com/111788394/206923455-5622a2dd-9b89-4768-b165-d41f827dcb6e.png">
@@ -29,17 +29,15 @@ At the images below we see that p values are grater than 0,05 at each lots those
 <img width="400" alt="Screen Shot 2022-12-11 at 2 02 22 PM]" src="https://user-images.githubusercontent.com/111788394/206923825-dbe0e349-0280-4e55-ac27-b73d5b86244e.png">
 ## Study Design (MegaCar and Competition)
 
-In my study design, I will analyse metrics that would be interesting for customers. So I will do my research on "Fuel Efficiency and "Price"
+In my study design, I will analyze metrics that would be interesting for customers. So I will research "Fuel Efficiency and "Price."
 The vehicle class for our comparison is Sedan.
-Our Hipotesis are defined as:
+Our Hypothesis is defined as follows:
 
-**Null Hypothesis:** There isn't any statistical significant difference on defined metrics between MechaCar and competition.
+**Null Hypothesis:** There isn't any statistically significant difference in defined metrics between MechaCar and competition.
 
-**Alternative Hypothesis:** There is statistical significant difference on defined metrics between MecharCar and competition.
+**Alternative Hypothesis:** There is a statistically significant difference in defined metrics between MecharCar and competition.
 
 The significance value defined for our study is _p value <= 0.05_.
-In order to perform the analysis, we are collecting Horsepower, Fuel Efficiency and Price data for all MechaCar competitors from Sedan vehicle class. All the competitor data is grouped together for our analysis.
+To perform the analysis, we are collecting Horsepower, Fuel Efficiency and Price data for all MechaCar competitors from the Sedan vehicle class. All the competitor data is grouped for our analysis.
 
-Then I will do t-tests on the data. Then if p value is 0,05 or smaller this will be a...
-
-
+Then I will do t-tests on the data. Then if the p value is 0,05 or more minor, this will be an Alternative Hypothesis.

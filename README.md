@@ -27,6 +27,7 @@ The images below show that p values are greater than 0,05 at each lot. Those are
 - _t_(49) = the _t_ statistic, _p_ = _p_ value = 0.06072
 
 <img width="400" alt="Screen Shot 2022-12-11 at 2 02 22 PM]" src="https://user-images.githubusercontent.com/111788394/206923825-dbe0e349-0280-4e55-ac27-b73d5b86244e.png">
+
 ## Study Design (MegaCar and Competition)
 
 In my study design, I will analyze metrics that would be interesting for customers. So I will research "Fuel Efficiency and "Price."

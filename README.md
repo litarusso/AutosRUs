@@ -14,7 +14,7 @@ At the images below we see that p values are grater than 0,05 at each lots those
 
 ## Visualizations for the Trip Analysis
 <img width="444" alt="each lot_summary" src="https://user-images.githubusercontent.com/111788394/206922165-a06aa760-73e5-4270-b1f0-07e5b66d1deb.png">
-
+<img width="338" alt="overall_summary" src="https://user-images.githubusercontent.com/111788394/206922170-eb1d11df-25b2-437d-90f1-adf1c3a5c6d2.png">
 
 ## T-Tests on Suspension Coils
-<img width="338" alt="overall_summary" src="https://user-images.githubusercontent.com/111788394/206922170-eb1d11df-25b2-437d-90f1-adf1c3a5c6d2.png">
+

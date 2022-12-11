@@ -7,6 +7,9 @@ The manufacturing lots meet the specifications because the variance on PSI is 76
 
 <img width="338" alt="overall_summary" src="https://user-images.githubusercontent.com/111788394/206922170-eb1d11df-25b2-437d-90f1-adf1c3a5c6d2.png">
 However when we look to all lots, althought  Lot 1 and Lot 2 are meeting the specifications, but Lot 3 doesn't meet the design specification because PSI is 200.
+## Linear Regression to Predict MPG
+<img width="400" alt="Screen Shot 2022-12-11 at 3 35 18 PM" src="https://user-images.githubusercontent.com/111788394/206927412-4b2c597a-9b5b-4eb9-bc8c-a2846a07a823.png">
+
 
 ## T-Tests on Suspension Coils
 I did t-tests to find out if all lots together and each lots individually 

@@ -1,3 +1,4 @@
+# MegaCars
 # Summary Statistics on Suspension Coils
 The variance of MechaCar suspension coils must not exceed 100 pounds per square inch because of it's design specifications.
 We are analising here if data meet this specification for all lots in total and each lot individually.
@@ -7,8 +8,9 @@ The manufacturing lots meet the specifications because the variance on PSI is 76
 
 <img width="338" alt="overall_summary" src="https://user-images.githubusercontent.com/111788394/206922170-eb1d11df-25b2-437d-90f1-adf1c3a5c6d2.png">
 However when we look to all lots, althought  Lot 1 and Lot 2 are meeting the specifications, but Lot 3 doesn't meet the design specification because PSI is 200.
+
 ## Linear Regression to Predict MPG
-<img width="400" alt="Screen Shot 2022-12-11 at 3 35 18 PM" src="https://user-images.githubusercontent.com/111788394/206927412-4b2c597a-9b5b-4eb9-bc8c-a2846a07a823.png">
+<img width="500" alt="Screen Shot 2022-12-11 at 3 35 18 PM" src="https://user-images.githubusercontent.com/111788394/206927412-4b2c597a-9b5b-4eb9-bc8c-a2846a07a823.png">
 
 
 ## T-Tests on Suspension Coils
@@ -25,4 +27,19 @@ At the images below we see that p values are grater than 0,05 at each lots those
 - _t_(49) = the _t_ statistic, _p_ = _p_ value = 0.06072
 
 <img width="400" alt="Screen Shot 2022-12-11 at 2 02 22 PM]" src="https://user-images.githubusercontent.com/111788394/206923825-dbe0e349-0280-4e55-ac27-b73d5b86244e.png">
-Study Design (Mega Car and Competition)
+## Study Design (MegaCar and Competition)
+
+In my study design, I will analyse metrics that would be interesting for customers. So I will do my research on "Fuel Efficiency and "Price"
+The vehicle class for our comparison is Sedan.
+Our Hipotesis are defined as:
+
+**Null Hypothesis:** There isn't any statistical significant difference on defined metrics between MechaCar and competition.
+
+**Alternative Hypothesis:** There is statistical significant difference on defined metrics between MecharCar and competition.
+
+The significance value defined for our study is _p value <= 0.05_.
+In order to perform the analysis, we are collecting Horsepower, Fuel Efficiency and Price data for all MechaCar competitors from Sedan vehicle class. All the competitor data is grouped together for our analysis.
+
+Then I will do t-tests on the data. Then if p value is 0,05 or smaller this will be a...
+
+

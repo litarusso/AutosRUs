@@ -3,11 +3,13 @@
 The variance of MechaCar suspension coils must be 100 pounds per square inch because of its design specifications.
 We are analysing here if data meet this specification for all lots in total and each lot individually.
 You can see the results of the analysis in the tables below.
-The manufacturing lots meet the specifications because the variance on PSI is 76.
+The manufacturing lots meet the specifications because the Var(PSI) which called "Variance" at this table is 76.
+
 <img width="444" alt="each lot_summary" src="https://user-images.githubusercontent.com/111788394/206922165-a06aa760-73e5-4270-b1f0-07e5b66d1deb.png">
 
 <img width="338" alt="overall_summary" src="https://user-images.githubusercontent.com/111788394/206922170-eb1d11df-25b2-437d-90f1-adf1c3a5c6d2.png">
-However, when we look at all lots, although Lot 1 and 2 meet the specifications, Lot 3 still needs to meet the design specification because PSI is 200.
+
+However, when we look at all lots, although Lot 1 and 2 meet the specifications, Lot 3 still needs to meet the design specification because Variance is 170.28.
 
 ## Linear Regression to Predict MPG
 <img width="500" alt="Screen Shot 2022-12-11 at 3 35 18 PM" src="https://user-images.githubusercontent.com/111788394/206927412-4b2c597a-9b5b-4eb9-bc8c-a2846a07a823.png">

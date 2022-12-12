@@ -50,7 +50,7 @@ _p_ value = 1
 
 _p_ value = 0.06072
 
-<img width="400" alt="Screen Shot 2022-12-12 at 9 46 06 AM](https://user-images.githubusercontent.com/111788394/207075030-bd5832b7-11e6-42ae-92ba-d686f9ecc0c4.png">
+<img width="400" alt="Screen Shot 2022-12-12 at 9 46 06 AM]" src="https://user-images.githubusercontent.com/111788394/207075030-bd5832b7-11e6-42ae-92ba-d686f9ecc0c4.png">
 
 ## Study Design (MegaCar and Competition)
 

@@ -2,7 +2,7 @@
 
 ## Linear Regression to Predict MPG
 
-**Image 1**
+_**Image 1**_
 
 <img width="500" alt="Screen Shot 2022-12-11 at 3 35 18 PM" src="https://user-images.githubusercontent.com/111788394/206927412-4b2c597a-9b5b-4eb9-bc8c-a2846a07a823.png">
 
@@ -23,13 +23,13 @@ Considering the significance level of 0.05 it can clearly be seen that p-value f
 
 The design specifications for the MechaCar suspension coils provide that the variance of the suspension coils must not exceed 100 pounds per square inch.
 
-**Table 1**
+_**Table 1**_
 
 <img width="400" alt="overall_summary" src="https://user-images.githubusercontent.com/111788394/206922170-eb1d11df-25b2-437d-90f1-adf1c3a5c6d2.png">
 
 By combining the data from all the manifacturing lots variance 62.3 is clearly less than 100. So the manufacturing lots meet the specifications (Table 1).
 
-**Table 2**
+_**Table 2**_
 
 <img width="400" alt="each lot_summary" src="https://user-images.githubusercontent.com/111788394/206922165-a06aa760-73e5-4270-b1f0-07e5b66d1deb.png">
 
@@ -43,25 +43,25 @@ I did t-tests to find out if all lots together and each lot individually meet th
 
 The images below it can be seen that p values are greater than 0,05 at each lot. Those are null because all p values are bigger than 0,05, so we can't believe the outcome.
 
-**Image 2**
+_**Image 3**_
 
 <img width="400" alt="Screen Shot 2022-12-11 at 2 01 59 PM" src="https://user-images.githubusercontent.com/111788394/206923455-5622a2dd-9b89-4768-b165-d41f827dcb6e.png">
 
 _p_ value = 0.06028
 
-**Image 3**
+_**Image 4**_
 
 <img width="400" alt="Screen Shot 2022-12-11 at 2 02 12 PM" src="https://user-images.githubusercontent.com/111788394/206923721-58a17f8c-f506-4830-9325-74ff3d865f23.png">
 
  _p_ value = 1
 
-**Image 4**
+_**Image 5**_
 
 <img width="400" alt="Screen Shot 2022-12-11 at 2 02 22 PM]" src="https://user-images.githubusercontent.com/111788394/206923825-dbe0e349-0280-4e55-ac27-b73d5b86244e.png">
 
 _p_ value = 0.06072
 
-**Image 5**
+_**Image 6**_
 
 <img width="400" alt="Screen Shot 2022-12-12 at 9 46 06 AM]" src="https://user-images.githubusercontent.com/111788394/207075030-bd5832b7-11e6-42ae-92ba-d686f9ecc0c4.png">
 

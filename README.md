@@ -83,7 +83,9 @@ There isn't any significant statistical significant difference in defined metric
 There is a significant statistical difference in defined metrics between MecharCar and competition.
 
 The significance value defined for our study is _p value <= 0.05_.
+
 To perform the analysis, we are collecting Horsepower, Fuel Efficiency and Price data for all MechaCar competitors from the Sedan vehicle class. All the competitor data is grouped for our analysis.
+
 Then I will do t-tests on each metric for MechaCar against the same metric from the collective competition data.
 At the end of the t-test, if the p-value for each t-test is less than 0.05, this will be an Alternative Hypothesis.
 

@@ -1,4 +1,8 @@
-# MegaCars
+# MechaCars
+
+## Linear Regression to Predict MPG
+<img width="500" alt="Screen Shot 2022-12-11 at 3 35 18 PM" src="https://user-images.githubusercontent.com/111788394/206927412-4b2c597a-9b5b-4eb9-bc8c-a2846a07a823.png">
+
 # Summary Statistics on Suspension Coils
 The variance of MechaCar suspension coils must be 100 pounds per square inch because of its design specifications.
 We are analysing here if data meet this specification for all lots in total and each lot individually.
@@ -13,8 +17,6 @@ The manufacturing lots meet the specifications because the Var(PSI) which called
 
 However, when we look at all lots, although Lot 1 and 2 meet the specifications, Lot 3 still needs to meet the design specification because Variance is 170.28.
 
-## Linear Regression to Predict MPG
-<img width="500" alt="Screen Shot 2022-12-11 at 3 35 18 PM" src="https://user-images.githubusercontent.com/111788394/206927412-4b2c597a-9b5b-4eb9-bc8c-a2846a07a823.png">
 
 
 ## T-Tests on Suspension Coils

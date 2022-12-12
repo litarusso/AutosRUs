@@ -61,15 +61,16 @@ _p_ value = 0.04168
 
 ## Study Design (MegaCar and Competition)
 
-In my study design, I will analyze metrics that would be interesting for customers. So I will research "Fuel Efficiency and "Price."
-The vehicle class for our comparison is Sedan.
+In my study design, I will analyze metrics that would be interesting for customers. So I will research "Horse Power", "Fuel Efficiency and "Price."
+We will make the vehicle comparison on Sedan's.
+
 Our Hypothesis is defined as follows:
 
-**Null Hypothesis:** There isn't any statistically significant difference in defined metrics between MechaCar and competition.
+**Null Hypothesis:** There isn't any significant statistical significant difference in defined metrics between MechaCar and competition.
 
-**Alternative Hypothesis:** There is a statistically significant difference in defined metrics between MecharCar and competition.
+**Alternative Hypothesis:** There is a significant statistical  difference in defined metrics between MecharCar and competition.
 
 The significance value defined for our study is _p value <= 0.05_.
 To perform the analysis, we are collecting Horsepower, Fuel Efficiency and Price data for all MechaCar competitors from the Sedan vehicle class. All the competitor data is grouped for our analysis.
 
-Then I will do t-tests on the data. Then if the p value is 0,05 or more minor, this will be an Alternative Hypothesis.
+Then we will do t-tests on the data. Then if the p value is 0,05 or  minor, this will be an Alternative Hypothesis.

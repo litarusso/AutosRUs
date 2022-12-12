@@ -22,17 +22,15 @@ The variance of MechaCar suspension coils must be 100 pounds per square inch bec
 We are analysing here if data meet this specification for all lots in total and each lot individually.
 You can see the results of the analysis in the tables below.
 
+_Table 1
 
 <img width="400" alt="overall_summary" src="https://user-images.githubusercontent.com/111788394/206922170-eb1d11df-25b2-437d-90f1-adf1c3a5c6d2.png">
 
-Table 1
-
 By combining the data from all the manifacturing lots variance 62.3 is clearly less than 100. So the manufacturing lots meet the specifications (Table 1).
 
+_Table 2
+
 <img width="400" alt="each lot_summary" src="https://user-images.githubusercontent.com/111788394/206922165-a06aa760-73e5-4270-b1f0-07e5b66d1deb.png">
-
-Table 2
-
 
 It can clearly been seen in the "Table 2"  lots 1 and 2 meets the 100 pound specification because the variance is less than 10 sguare inch.
 However lot 3 does not meet the specifications as the variance is around 1.

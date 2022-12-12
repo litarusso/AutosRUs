@@ -40,7 +40,6 @@ However lot 3 does not meet the specifications as the variance is around 1.
 ## T-Tests on Suspension Coils
 I did t-tests to find out if all lots together and each lot individually meet the requirements.
 
-### Null Hipotesis
 The images below show that p values are greater than 0,05 at each lot. Those are null because all p values are bigger than 0,05, so we can't believe the outcome.
 
 

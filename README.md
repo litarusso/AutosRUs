@@ -5,6 +5,7 @@
 
 <img width="500" alt="Screen Shot 2022-12-11 at 3 35 18 PM" src="https://user-images.githubusercontent.com/111788394/206927412-4b2c597a-9b5b-4eb9-bc8c-a2846a07a823.png">
 
+
 **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
 
 Considering the significance level of 0.05 it can clearly be seen that vehicle_length and ground_clearance have p-values way less than 0.05 so these variable provide non-random amount of variance to mpg values
@@ -18,9 +19,8 @@ Considering the significance level of 0.05 it can clearly be seen that p-value f
 Considering the significance level of 0.05 it can clearly be seen that p-value for all the lots combined (0.06028 [mean of 1498.78] and p-values for lots #1 (1) and #2 (0.06072) [mean values of 1500 and 1500.2 respectively], are above the 0.05 signifying that the mean PSI is not statistically different from the population mean, while the p-value for lot # 3 (0.04168)[mean of 1496.14] is less then 0.05 signifying that mean PSI for lot # 3 is statistically different from the population mean
 
 ## Summary Statistics on Suspension Coils
-The variance of MechaCar suspension coils must be 100 pounds per square inch because of its design specifications.
-We are analysing here if data meet this specification for all lots in total and each lot individually.
-You can see the results of the analysis in the tables below.
+
+The design specifications for the MechaCar suspension coils provide that the variance of the suspension coils must not exceed 100 pounds per square inch.
 
 _Table 1
 
@@ -32,7 +32,7 @@ _Table 2
 
 <img width="400" alt="each lot_summary" src="https://user-images.githubusercontent.com/111788394/206922165-a06aa760-73e5-4270-b1f0-07e5b66d1deb.png">
 
-It can clearly been seen in the "Table 2"  lots 1 and 2 meets the 100 pound specification because the variance is less than 10 sguare inch.
+It can clearly been seen in the "Table 2",  lots 1 and 2 meets the 100 pound specification because the variance is less than 10 sguare inch.
 However lot 3 does not meet the specifications as the variance is around 1.
 
 
@@ -40,7 +40,7 @@ However lot 3 does not meet the specifications as the variance is around 1.
 ## T-Tests on Suspension Coils
 I did t-tests to find out if all lots together and each lot individually meet the requirements.
 
-The images below show that p values are greater than 0,05 at each lot. Those are null because all p values are bigger than 0,05, so we can't believe the outcome.
+The images below it can be seen that p values are greater than 0,05 at each lot. Those are null because all p values are bigger than 0,05, so we can't believe the outcome.
 
 
 <img width="400" alt="Screen Shot 2022-12-11 at 2 01 59 PM" src="https://user-images.githubusercontent.com/111788394/206923455-5622a2dd-9b89-4768-b165-d41f827dcb6e.png">

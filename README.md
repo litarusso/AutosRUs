@@ -15,19 +15,27 @@ Considering the significance level of 0.05 it can clearly be seen that p-value f
 
 **Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 
+Considering the significance level of 0.05 it can clearly be seen that p-value for all the lots combined (0.06028 [mean of 1498.78] and p-values for lots #1 (1) and #2 (0.06072) [mean values of 1500 and 1500.2 respectively], are above the 0.05 signifying that the mean PSI is not statistically different from the population mean, while the p-value for lot # 3 (0.04168)[mean of 1496.14] is less then 0.05 signifying that mean PSI for lot # 3 is statistically different from the population mean
+
 # Summary Statistics on Suspension Coils
 The variance of MechaCar suspension coils must be 100 pounds per square inch because of its design specifications.
 We are analysing here if data meet this specification for all lots in total and each lot individually.
 You can see the results of the analysis in the tables below.
-The manufacturing lots meet the specifications because the Var(PSI) which called "Variance" at this table is 62.
+
+
 <img width="400" alt="overall_summary" src="https://user-images.githubusercontent.com/111788394/206922170-eb1d11df-25b2-437d-90f1-adf1c3a5c6d2.png">
+
+Table 1
+
+By combining the data from all the manifacturing lots variance 62.3 is clearly less than 100. So the manufacturing lots meet the specifications (Table 1).
 
 <img width="400" alt="each lot_summary" src="https://user-images.githubusercontent.com/111788394/206922165-a06aa760-73e5-4270-b1f0-07e5b66d1deb.png">
 
+Table 2
 
 
-
-However, when we look at all lots, although Lot 1 and 2 meet the specifications, Lot 3 still needs to meet the design specification because Variance is 170.28.
+It can clearly been seen in the "Table 2"  lots 1 and 2 meets the 100 pound specification because the variance is less than 10 sguare inch.
+However lot 3 does not meet the specifications as the variance is around 1.
 
 
 

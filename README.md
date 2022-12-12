@@ -11,6 +11,7 @@ Considering the significance level of 0.05 it can clearly be seen that vehicle_l
 
 **Is the slope of the linear model considered to be zero? Why or why not?**
 
+Considering the significance level of 0.05 it can clearly be seen that p-value for the intercept which is 5.08e-08 which is way less then 0.05, therefore, the slope of the linear model can not be considered equal to zero
 
 **Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 
@@ -32,6 +33,7 @@ However, when we look at all lots, although Lot 1 and 2 meet the specifications,
 
 ## T-Tests on Suspension Coils
 I did t-tests to find out if all lots together and each lot individually meet the requirements.
+
 ### Null Hipotesis
 The images below show that p values are greater than 0,05 at each lot. Those are null because all p values are bigger than 0,05, so we can't believe the outcome.
 

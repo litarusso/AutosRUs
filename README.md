@@ -6,15 +6,15 @@
 <img width="500" alt="Screen Shot 2022-12-11 at 3 35 18 PM" src="https://user-images.githubusercontent.com/111788394/206927412-4b2c597a-9b5b-4eb9-bc8c-a2846a07a823.png">
 
 
-**Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
+- **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
 Considering the significance level of 0.05 it can clearly be seen that vehicle_length and ground_clearance have p-values way less than 0.05 so these variable provide non-random amount of variance to mpg values
 
-**Is the slope of the linear model considered to be zero? Why or why not?**
+- **Is the slope of the linear model considered to be zero? Why or why not?**
 
 Considering the significance level of 0.05 it can clearly be seen that p-value for the intercept which is 5.08e-08 which is way less then 0.05, therefore, the slope of the linear model can not be considered equal to zero
 
-**Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
+- **Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 
 Considering the significance level of 0.05 it can clearly be seen that p-value for all the lots combined (0.06028 [mean of 1498.78] and p-values for lots #1 (1) and #2 (0.06072) [mean values of 1500 and 1500.2 respectively], are above the 0.05 signifying that the mean PSI is not statistically different from the population mean, while the p-value for lot # 3 (0.04168)[mean of 1496.14] is less then 0.05 signifying that mean PSI for lot # 3 is statistically different from the population mean
 
@@ -22,13 +22,13 @@ Considering the significance level of 0.05 it can clearly be seen that p-value f
 
 The design specifications for the MechaCar suspension coils provide that the variance of the suspension coils must not exceed 100 pounds per square inch.
 
-_Table 1
+- Table 1
 
 <img width="400" alt="overall_summary" src="https://user-images.githubusercontent.com/111788394/206922170-eb1d11df-25b2-437d-90f1-adf1c3a5c6d2.png">
 
 By combining the data from all the manifacturing lots variance 62.3 is clearly less than 100. So the manufacturing lots meet the specifications (Table 1).
 
-_Table 2
+- Table 2
 
 <img width="400" alt="each lot_summary" src="https://user-images.githubusercontent.com/111788394/206922165-a06aa760-73e5-4270-b1f0-07e5b66d1deb.png">
 

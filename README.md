@@ -9,15 +9,15 @@ _**Image 1**_
 
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
-Considering the significance level of 0.05 it can clearly be seen that vehicle_length and ground_clearance have p-values way less than 0.05 so these variable provide non-random amount of variance to mpg values
+Considering the significance level of 0.05 it can clearly be seen that vehicle_length and ground_clearance have p-values way less than 0.05 so these variables provide a non-random amount of variance to mpg values.
 
 ### Is the slope of the linear model considered to be zero? Why or why not?
 
-Considering the significance level of 0.05 it can clearly be seen that p-value for the intercept which is 5.08e-08 which is way less then 0.05, therefore, the slope of the linear model can not be considered equal to zero
+Considering the significance level of 0.05 it can clearly be seen that the p-value for the intercept which is 5.08e-08 which is way less than 0.05, therefore, the slope of the linear model can not be considered equal to zero
 
-### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+### Does this linear model predict  mpg of MechaCar prototypes effectively? Why or why not?
 
-Considering the significance level of 0.05 it can clearly be seen that p-value for all the lots combined (0.06028 [mean of 1498.78] and p-values for lots #1 (1) and #2 (0.06072) [mean values of 1500 and 1500.2 respectively], are above the 0.05 signifying that the mean PSI is not statistically different from the population mean, while the p-value for lot # 3 (0.04168)[mean of 1496.14] is less then 0.05 signifying that mean PSI for lot # 3 is statistically different from the population mean
+Considering the significance level of 0.05 it can clearly be seen that p-value for all the lots combined (0.06028 [mean of 1498.78] and p-values for lots #1 (1) and #2 (0.06072) [mean values of 1500 and 1500.2 respectively], are above the 0.05 signifying that the mean PSI is not statistically different from the population mean, while the p-value for lot # 3 (0.04168)[mean of 1496.14] is less than 0.05 signifying that mean PSI for lot # 3 is statistically different from the population mean
 
 ## Summary Statistics on Suspension Coils
 
@@ -27,21 +27,21 @@ _**Table 1**_
 
 <img width="400" alt="overall_summary" src="https://user-images.githubusercontent.com/111788394/206922170-eb1d11df-25b2-437d-90f1-adf1c3a5c6d2.png">
 
-By combining the data from all the manifacturing lots variance 62.3 is clearly less than 100. So the manufacturing lots meet the specifications (Table 1).
+By combining the data from all the manufacturing lots, variance 62.3 is less than 100. So the manufacturing lots meet the specifications (Table 1).
 
 _**Table 2**_
 
 <img width="400" alt="each lot_summary" src="https://user-images.githubusercontent.com/111788394/206922165-a06aa760-73e5-4270-b1f0-07e5b66d1deb.png">
 
-It can clearly been seen in the "Table 2",  lots 1 and 2 meets the 100 pound specification because the variance is less than 10 sguare inch.
-However lot 3 does not meet the specifications as the variance is around 1.
+It is clearly seen in the "Table 2" that lots 1 and 2 meet the 100 pound specification because the variance is less than 10 square inch.
+However, lot 3 does not meet the specifications as the variance is around 1.
 
 
 
 ## T-Tests on Suspension Coils
 I did t-tests to find out if all lots together and each lot individually meet the requirements.
 
-The images below it can be seen that p values are greater than 0,05 at each lot. Those are null because all p values are bigger than 0,05, so we can't believe the outcome.
+In the images below, it can be seen that p values are greater than 0,05 at each lot. Those are null because all p values are bigger than 0,05, so we can't believe the outcome.
 
 _**Image 3**_
 
@@ -69,16 +69,22 @@ _p_ value = 0.04168
 
 ## Study Design (MegaCar and Competition)
 
-In my study design, I will analyze metrics that would be interesting for customers. So I will research "Horse Power", "Fuel Efficiency and "Price."
-We will make the vehicle comparison on Sedan's.
+In my study design, I will analyze metrics that would be interesting for customers. So I will research "Horse Power," "Fuel Efficiency and "Price."
+We will make the vehicle comparison on Sedans.
 
 Our Hypothesis is defined as follows:
 
-**Null Hypothesis:** There isn't any significant statistical significant difference in defined metrics between MechaCar and competition.
+**Null Hypothesis:** 
 
-**Alternative Hypothesis:** There is a significant statistical  difference in defined metrics between MecharCar and competition.
+There isn't any significant statistical significant difference in defined metrics between MechaCar and competition.
+
+**Alternative Hypothesis:** 
+
+There is a significant statistical difference in defined metrics between MecharCar and competition.
 
 The significance value defined for our study is _p value <= 0.05_.
 To perform the analysis, we are collecting Horsepower, Fuel Efficiency and Price data for all MechaCar competitors from the Sedan vehicle class. All the competitor data is grouped for our analysis.
+Then I will do t-tests on each metric for MechaCar against the same metric from the collective competition data.
+At the end of the t-test, if the p-value for each t-test is less than 0.05, this will be an Alternative Hypothesis.
 
-Then we will do t-tests on the data. Then if the p value is 0,05 or  minor, this will be an Alternative Hypothesis.
+

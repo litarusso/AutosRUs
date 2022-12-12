@@ -36,15 +36,15 @@ I did t-tests to find out if all lots together and each lot individually meet th
 
 ### Null Hipotesis
 The images below show that p values are greater than 0,05 at each lot. Those are null because all p values are bigger than 0,05, so we can't believe the outcome.
-_p_ value = 0.06028
+
 
 <img width="400" alt="Screen Shot 2022-12-11 at 2 01 59 PM" src="https://user-images.githubusercontent.com/111788394/206923455-5622a2dd-9b89-4768-b165-d41f827dcb6e.png">
 
-_p_ value = 1
+_p_ value = 0.06028
 
 <img width="400" alt="Screen Shot 2022-12-11 at 2 02 12 PM" src="https://user-images.githubusercontent.com/111788394/206923721-58a17f8c-f506-4830-9325-74ff3d865f23.png">
 
- _p_ value = 0.06072
+ _p_ value = 1
 
 <img width="400" alt="Screen Shot 2022-12-11 at 2 02 22 PM]" src="https://user-images.githubusercontent.com/111788394/206923825-dbe0e349-0280-4e55-ac27-b73d5b86244e.png">
 
@@ -52,7 +52,7 @@ _p_ value = 0.06072
 
 <img width="400" alt="Screen Shot 2022-12-12 at 9 46 06 AM]" src="https://user-images.githubusercontent.com/111788394/207075030-bd5832b7-11e6-42ae-92ba-d686f9ecc0c4.png">
 
-_p_ value = 0.06072
+_p_ value = 0.04168
 
 ## Study Design (MegaCar and Competition)
 

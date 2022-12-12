@@ -6,9 +6,13 @@
 <img width="500" alt="Screen Shot 2022-12-11 at 3 35 18 PM" src="https://user-images.githubusercontent.com/111788394/206927412-4b2c597a-9b5b-4eb9-bc8c-a2846a07a823.png">
 
 **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
+
 Considering the significance level of 0.05 it can clearly be seen that vehicle_length and ground_clearance have p-values way less than 0.05 so these variable provide non-random amount of variance to mpg values
 
+**Is the slope of the linear model considered to be zero? Why or why not?**
 
+
+**Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 
 # Summary Statistics on Suspension Coils
 The variance of MechaCar suspension coils must be 100 pounds per square inch because of its design specifications.

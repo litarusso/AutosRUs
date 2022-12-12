@@ -17,7 +17,7 @@ Considering the significance level of 0.05 it can clearly be seen that p-value f
 
 Considering the significance level of 0.05 it can clearly be seen that p-value for all the lots combined (0.06028 [mean of 1498.78] and p-values for lots #1 (1) and #2 (0.06072) [mean values of 1500 and 1500.2 respectively], are above the 0.05 signifying that the mean PSI is not statistically different from the population mean, while the p-value for lot # 3 (0.04168)[mean of 1496.14] is less then 0.05 signifying that mean PSI for lot # 3 is statistically different from the population mean
 
-# Summary Statistics on Suspension Coils
+## Summary Statistics on Suspension Coils
 The variance of MechaCar suspension coils must be 100 pounds per square inch because of its design specifications.
 We are analysing here if data meet this specification for all lots in total and each lot individually.
 You can see the results of the analysis in the tables below.

@@ -3,6 +3,7 @@
 ## Linear Regression to Predict MPG
 
 **Image 1**
+
 <img width="500" alt="Screen Shot 2022-12-11 at 3 35 18 PM" src="https://user-images.githubusercontent.com/111788394/206927412-4b2c597a-9b5b-4eb9-bc8c-a2846a07a823.png">
 
 

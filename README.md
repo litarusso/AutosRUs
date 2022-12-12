@@ -48,6 +48,10 @@ _p_ value = 1
 
 <img width="400" alt="Screen Shot 2022-12-11 at 2 02 22 PM]" src="https://user-images.githubusercontent.com/111788394/206923825-dbe0e349-0280-4e55-ac27-b73d5b86244e.png">
 
+_p_ value = 0.06072
+
+<img width="400" alt="Screen Shot 2022-12-12 at 9 46 06 AM](https://user-images.githubusercontent.com/111788394/207075030-bd5832b7-11e6-42ae-92ba-d686f9ecc0c4.png">
+
 ## Study Design (MegaCar and Competition)
 
 In my study design, I will analyze metrics that would be interesting for customers. So I will research "Fuel Efficiency and "Price."
